@@ -8,7 +8,7 @@ script, filename = argv
 txt = open(filename)
 
 #calls a fucntion on txt called "read"
-print(f"Here's your file {filename}:")
+print("Here's your file {filename}:")
 file_again = input("> ")
 
 #the rest of the srcipt is nore of the same
