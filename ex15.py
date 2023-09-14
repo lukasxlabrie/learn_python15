@@ -8,7 +8,7 @@ script, filename = argv
 txt = open(filename)
 
 #calls a fucntion on txt called "read"
-print(f"Here's your file {filename}")
+print(f"Here's your file {filename}:")
 print(txt.read())
 
 #the rest of the srcipt is nore of the same
