@@ -9,7 +9,7 @@ txt = open(filename)
 
 #calls a fucntion on txt called "read"
 print(f"Here's your file {filename}:")
-file_again = input("> ")
+print(txt.read())
 
 #the rest of the srcipt is nore of the same
 print("Type The filename again:")
