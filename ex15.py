@@ -9,3 +9,5 @@ file_again = input("> ")
 
 print(txt.read())
 file_again =input("> ")
+
+txt_again = open(file_again)
